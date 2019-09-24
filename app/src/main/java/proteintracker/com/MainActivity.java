@@ -42,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
 
         Button fragmentbtn = (Button)findViewById(R.id.buttonFragment);
 
+        Button listView = (Button)findViewById(R.id.btnListView);
+        listView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,ListActivity.class);
+                startActivity(i);
+            }
+        });
+
         Button btnMahasiswa = (Button)findViewById(R.id.btnMahasiswa);
         btnMahasiswa.setOnClickListener(new View.OnClickListener() {
             @Override
