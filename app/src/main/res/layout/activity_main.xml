@@ -24,18 +24,21 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
+            android:layout_width="114dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/button"
             android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/appButton"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNim"
             tools:visibility="visible" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextNim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -48,42 +51,65 @@
 
         <Button
             android:id="@+id/helpButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="114dp"
+            android:layout_height="48dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/help"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appButton" />
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_width="115dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="LIST VIEW"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonFragment" />
+
+        <Button
+            android:id="@+id/buttonLayout"
+            android:layout_width="113dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
 
         <Button
-            android:id="@+id/btnListView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="LIST VIEW"
-            app:layout_constraintStart_toStartOf="@+id/btnMahasiswa"
-            app:layout_constraintTop_toBottomOf="@+id/btnMahasiswa" />
-
-        <Button
-            android:id="@+id/buttonLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonFragment"
+            android:layout_width="114dp"
+            android:layout_height="51dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/layout"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/fragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/helpButton" />
 
         <Button
-            android:id="@+id/buttonFragment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="28dp"
-            android:text="@string/fragment"
+            android:id="@+id/btnKelolaMhs"
+            android:layout_width="119dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="KELOLA DATA MAHASISWA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.087"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/btnListView" />
 
         <Button
             android:id="@+id/appButton"
@@ -91,19 +117,25 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/protein_app"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextNim" />
 
         <Button
             android:id="@+id/btnMahasiswa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_width="115dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/mahasiswa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonFragment" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonLayout" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

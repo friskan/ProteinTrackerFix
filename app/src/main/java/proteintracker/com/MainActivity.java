@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this,HelpActivity.class);
             Bundle b = new Bundle();
-            EditText myEditText = (EditText)findViewById(R.id.editText);
+            EditText myEditText = (EditText)findViewById(R.id.editTextNim);
             b.putString("HelpString",myEditText.getText().toString());
             intent.putExtras(b);
             startActivity(intent);
@@ -59,6 +59,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button kelolaMhsBtn = (Button)findViewById(R.id.btnKelolaMhs);
+        kelolaMhsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,KelolaActivity.class);
+                startActivity(i);
+            }
+        });
         fragmentbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         myBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                EditText myEditText = (EditText)findViewById(R.id.editText);
+                EditText myEditText = (EditText)findViewById(R.id.editTextNim);
                 Log.d("ProteinTracker",myEditText.getText().toString());
 
             }
