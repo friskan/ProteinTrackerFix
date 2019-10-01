@@ -27,14 +27,14 @@
             android:layout_width="114dp"
             android:layout_height="47dp"
             android:layout_marginStart="172dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="132dp"
             android:layout_marginEnd="8dp"
             android:text="@string/button"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintHorizontal_bias="0.111"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNim"
+            app:layout_constraintTop_toTopOf="parent"
             tools:visibility="visible" />
 
         <EditText
@@ -50,11 +50,22 @@
             app:layout_constraintTop_toBottomOf="@+id/mainActivityTextView" />
 
         <Button
+            android:id="@+id/btnRecyclerViewMahasiswa"
+            android:layout_width="136dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="12dp"
+            android:text="RECYCLER VIEW MAHASISWA"
+            app:layout_constraintEnd_toEndOf="@+id/btnListView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btnListView"
+            app:layout_constraintTop_toBottomOf="@+id/btnListView" />
+
+        <Button
             android:id="@+id/helpButton"
             android:layout_width="114dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:text="@string/help"
             app:layout_constraintEnd_toEndOf="parent"
@@ -66,18 +77,27 @@
             android:id="@+id/btnListView"
             android:layout_width="115dp"
             android:layout_height="46dp"
-            android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:text="LIST VIEW"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonFragment" />
+            app:layout_constraintEnd_toEndOf="@+id/btnMahasiswa"
+            app:layout_constraintStart_toStartOf="@+id/btnMahasiswa"
+            app:layout_constraintTop_toBottomOf="@+id/btnMahasiswa" />
+
+        <Button
+            android:id="@+id/btnRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="RECYCLER VIEW"
+            app:layout_constraintStart_toStartOf="@+id/btnKelolaMhs"
+            app:layout_constraintTop_toBottomOf="@+id/btnKelolaMhs" />
 
         <Button
             android:id="@+id/buttonLayout"
             android:layout_width="113dp"
             android:layout_height="50dp"
             android:layout_marginStart="184dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:text="@string/layout"
             app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +110,7 @@
             android:layout_width="114dp"
             android:layout_height="51dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:text="@string/fragment"
             app:layout_constraintEnd_toEndOf="parent"
@@ -103,13 +123,13 @@
             android:layout_width="119dp"
             android:layout_height="64dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:text="KELOLA DATA MAHASISWA"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.087"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnListView" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonFragment" />
 
         <Button
             android:id="@+id/appButton"
@@ -129,7 +149,7 @@
             android:layout_width="115dp"
             android:layout_height="49dp"
             android:layout_marginStart="184dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:text="@string/mahasiswa"
             app:layout_constraintEnd_toEndOf="parent"
