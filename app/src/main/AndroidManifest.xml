@@ -12,7 +12,9 @@
         <activity android:name=".RecyclerViewActivityMhs" >
 
         </activity>
-        <activity android:name=".RecyclerViewActivity"/>
+        <activity android:name=".RecyclerViewActivity">
+
+        </activity>
         <activity android:name=".KelolaActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".Main4Activity" />

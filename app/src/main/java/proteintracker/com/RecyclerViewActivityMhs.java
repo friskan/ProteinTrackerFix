@@ -21,7 +21,7 @@ public class RecyclerViewActivityMhs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recycler_view);
+        setContentView(R.layout.activity_recycler_view_mhs);
 
         addData();
 

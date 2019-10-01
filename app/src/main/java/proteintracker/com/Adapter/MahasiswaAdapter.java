@@ -47,9 +47,9 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.View
         public ViewHolder(View view){
             super(view);
 
-            txtNama = view.findViewById(R.id.txt_nama);
-            txtNpm = view.findViewById(R.id.txt_nim);
-            txtNohp = view.findViewById(R.id.txt_gender);
+            txtNama = view.findViewById(R.id.txt_nama_mahasiswa);
+            txtNpm = view.findViewById(R.id.txt_npm_mahasiswa);
+            txtNohp = view.findViewById(R.id.txt_nohp_mahasiswa);
         }
     }
 }
