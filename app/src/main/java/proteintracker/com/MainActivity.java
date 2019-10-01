@@ -78,6 +78,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button rvMahasiswaBtn2 = (Button)findViewById(R.id.btnRecyclerViewMahasiswa);
+        rvMahasiswaBtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,RecyclerViewActivityMhs.class);
+                startActivity(i);
+            }
+        });
+
         fragmentbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

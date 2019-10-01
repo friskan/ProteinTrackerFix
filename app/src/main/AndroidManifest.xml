@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewActivity">
+        <activity android:name=".RecyclerViewActivityMhs" >
 
         </activity>
+        <activity android:name=".RecyclerViewActivity"/>
         <activity android:name=".KelolaActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".Main4Activity" />
