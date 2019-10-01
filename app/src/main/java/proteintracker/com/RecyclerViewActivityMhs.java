@@ -37,7 +37,7 @@ public class RecyclerViewActivityMhs extends AppCompatActivity {
         mahasiswaArrayList2 = new ArrayList<>();
         mahasiswaArrayList2.add(new Mahasiswa_2("Eva Kristina",
                 "72170091","Perempuan", " Hobi : Bermain Game", " Cita-cita : Animal Resquer",
-                " Motto : Life is Simple", R.drawable.eva));
+                "Motto : Life is Simple", R.drawable.eva));
         mahasiswaArrayList2.add(new Mahasiswa_2("Emma Norren",
                 "72170097", "Perempuan", "Hobi : Melukis",
                 "Cita-cita : Pengusaha Fashion", " Motto : Stop Dreaming & Start Doing", R.drawable.emma));
