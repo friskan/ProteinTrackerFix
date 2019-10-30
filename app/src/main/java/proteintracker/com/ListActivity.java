@@ -51,6 +51,9 @@ public class ListActivity extends AppCompatActivity {
                         + items[position], Toast.LENGTH_SHORT).show();
             }
         });
+
+
+
     }
 }
 

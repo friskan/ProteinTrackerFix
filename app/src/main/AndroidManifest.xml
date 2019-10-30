@@ -9,25 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewActivityMhs" >
-
-        </activity>
-        <activity android:name=".RecyclerViewActivity">
-
-        </activity>
-        <activity android:name=".KelolaActivity" />
-        <activity android:name=".ListActivity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main3FragmentActivity" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".CobaMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".RecyclerViewActivityMhs"></activity>
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".KelolaActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main3Activity" >
+
+        </activity>
+        <activity android:name=".Main3FragmentActivity" />
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 

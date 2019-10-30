@@ -24,6 +24,7 @@ public class KelolaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kelola);
 
+
         ListView lv = (ListView) findViewById(R.id.listMhs);
 
         Button updateButton = findViewById(R.id.btnUpdate);
